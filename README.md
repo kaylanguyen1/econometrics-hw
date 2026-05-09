@@ -78,19 +78,7 @@ Files, datasets, and completed homework in Stata/R from ECON 4355 (Econometrics)
 
 > $$H_{0}^{(1)}: \beta_{KK} = 0, \beta_{LL} = 0, \beta_{KL} = 0, \beta_{KM} = 0, \beta_{LM} = 0$$
 
-$$
-\begin{aligned}
-> H_{0}^{(2)}: \\
-
->>\beta_{K} + \beta_{L} + \beta_{M} = 1 \\
-
->>  2\beta_{KK} + \beta_{KL} + \beta_{KM} = 0 \\
-
->> \beta_{KL} + 2\beta_{LL} + \beta_{LM} = 0 \\
-
->> \beta_{KM} + \beta_{LM} + 2\beta_{MM} = 0
-\end{aligned}
-$$
+> $$H_{0}^{(2)}: \beta_{K} + \beta_{L} + \beta_{M} = 1 ; 2\beta_{KK} + \beta_{KL} + \beta_{KM} = 0 ; \beta_{KL} + 2\beta_{LL} + \beta_{LM} = 0 ; \beta_{KM} + \beta_{LM} + 2\beta_{MM} = 0$$
 
 > The data file *chemical_small* contains observations on 1200 firms in a chemical industry in the year 2006.
 

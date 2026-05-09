@@ -72,13 +72,13 @@ Files, datasets, and completed homework in Stata/R from ECON 4355 (Econometrics)
 ## Homework_5 Folder:
 > 1. Consider a translog production function where output is measured as firm sales and there are three inputs: capital, labor, and materials. This function can be written as\
 
-    $$LSALES  = \beta_{C} + \beta_{K}K + \beta_{L}L + \beta_{M}M + \beta_{KK}K^{2} + \beta_{LL}L^{2} + \beta_{MM}M^{2} + \beta_{KL}KL + \beta_{KM}KM + \beta_{LM}LM + e$$ 
+> $$LSALES  = \beta_{C} + \beta_{K}K + \beta_{L}L + \beta_{M}M + \beta_{KK}K^{2} + \beta_{LL}L^{2} + \beta_{MM}M^{2} + \beta_{KL}KL + \beta_{KM}KM + \beta_{LM}LM + e$$ 
 
 > where *LSALES* is the log of sales, *K*, *L*, and *M* are the logs of capital, labor, and materials, respectively. There are two hypotheses that are likely to be of interest:
 
-    $$H_{0}^{(1)}: \beta_{KK} = 0, \beta_{LL} = 0, \beta_{KL} = 0, \beta_{KM} = 0, \beta_{LM} = 0$$
+> $$H_{0}^{(1)}: \beta_{KK} = 0, \beta_{LL} = 0, \beta_{KL} = 0, \beta_{KM} = 0, \beta_{LM} = 0$$
 
-    $$H_{0}^{(2)}: \beta_{K} + \beta_{L} + \beta_{M} = 1, 2\beta_{KK} + \beta_{KL} + \beta_{KM} = 0, \beta_{KL} + 2\beta_{LL} + \beta_{LM} = 0, \beta_{KM} + \beta_{LM} + 2\beta_{MM} = 0$$
+> $$H_{0}^{(2)}: \beta_{K} + \beta_{L} + \beta_{M} = 1, 2\beta_{KK} + \beta_{KL} + \beta_{KM} = 0, \beta_{KL} + 2\beta_{LL} + \beta_{LM} = 0, \beta_{KM} + \beta_{LM} + 2\beta_{MM} = 0$$
 
 > The data file *chemical_small* contains observations on 1200 firms in a chemical industry in the year 2006.
 
